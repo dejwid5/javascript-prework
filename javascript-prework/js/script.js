@@ -4,6 +4,8 @@ function playGame(){
 
     /*let playerInput = prompt('Wybierz swój ruch! 1: kamień, 2: papier, 3: nożyce.');*/
 
+    let playerInput = arguments[0];
+
     /*
     function playerInput(argPlayerMove){
         prompt('Wybierz swój ruch! 1: kamień, 2: papier, 3: nożyce.');
