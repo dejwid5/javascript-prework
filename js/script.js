@@ -24,10 +24,10 @@
             }
         }
 
-        let computerMove = getMoveName(randomNumber);
+        const computerMove = getMoveName(randomNumber);
 
 
-        let playerMove = getMoveName(playerInput);
+        const playerMove = getMoveName(playerInput);
 
 
         printMessage('Twój ruch to: ' + playerMove);
